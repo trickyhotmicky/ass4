@@ -7,7 +7,7 @@ import json
 class MainPage(webapp2.RequestHandler):
 
     def get(self):
-        self.response.write("hello")
+        self.response.write("hello again")
 
 
 app = webapp2.WSGIApplication([
